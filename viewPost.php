@@ -46,9 +46,9 @@
                     <p><?php echo $row["body"]?></p>
                     
                     <div class="d-flex justify-content-center">
-                        <a href="editPost.php?id=<?php echo $row["id"]?>" class="btn btn-success mr-3 "> edit post</a>
+                        <a href="editPost.php?id=<?php echo $row["id"]?>&image=<?php echo $row["image"]?>" class="btn btn-success mr-3 "> edit post</a>
                     
-                        <a href="deletePost.php?id=<?php echo $row["id"]?>" class="btn btn-danger "> delete post</a>
+                        <a href="deletePost.php?id=<?php echo $row["id"]?>&image=<?php echo $row["image"]?>" class="btn btn-danger "> delete post</a>
                     </div>
                   </div>
                 </div>

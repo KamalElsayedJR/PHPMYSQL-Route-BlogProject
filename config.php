@@ -6,6 +6,4 @@ $dbname = "blog";
 $conn = mysqli_connect($localhost,$username,"",$dbname);
 
 
-
-
 ?>
