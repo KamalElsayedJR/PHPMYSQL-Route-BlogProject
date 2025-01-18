@@ -116,7 +116,7 @@
     <?php
 ?>
 
-        <form class="form" action="" method="post">
+        <form class="form" action="handel-register.php" method="post">
             
             <h3>Register Here</h3>
             <input placeholder="Enter Name" class="input" type="text" name="name" id=""value="">

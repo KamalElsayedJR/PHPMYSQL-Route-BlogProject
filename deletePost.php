@@ -2,10 +2,14 @@
 
 
     require_once 'config.php';
+    session_start();
 
     if (isset($_GET["id"])) {
         $id=$_GET["id"];
         $image=$_GET["image"];
+
+        if (isset($_SESSION["id"])) {
+            $userid = $_SESSION["id"];
             $query="delete from posts where id=$id";
 
             $result=mysqli_query($conn,$query);
@@ -16,7 +20,7 @@
             }else{
                 header("Location: index.php");
             }
-
+        }
         }else{
             header("Location: index.php ");
         }

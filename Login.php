@@ -116,11 +116,13 @@
     <?php
 ?>
 
-        <form class="form" action="" method="post">
+        <form class="form" action="handel-login.php" method="post">
             <h3>Login Here</h3>
             <input placeholder="Enter Email" class="input" type="email" name="email" id=""value="">
             <input class="input" placeholder="Enter Password" type="password" name="password" id="">
             <button type="submit" name="submit">Login</button>
+            <a href="Register.php">Register</a>
+            
         </form>
 
     </div>
